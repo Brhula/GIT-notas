@@ -15,6 +15,11 @@ git config --global core.editor "code --wait"
 # Con el comando anterior, el terminal espera a que salgas del editor.
 git config --global -e   
 
+# Si estamos en Windows, que GIt elimine la combinacion de CR+LF y deje solo LF para compatibilidad.
+# En linux/Mac el "true" debe ser "input" para que no filtre.
+git config --global core.autocrlf true
+
+
 ```   
 
 open the editor:   

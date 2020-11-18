@@ -18,9 +18,13 @@ git config --global -e
 # Si estamos en Windows, que GIt elimine la combinacion de CR+LF y deje solo LF para compatibilidad.
 # En linux/Mac el "true" debe ser "input" para que no filtre.
 git config --global core.autocrlf true
-
-
 ```   
+
+Para iniciar un nuevo repositorio, nos ponemos en el directorio que corresponda y ejecutamos:   
+```bash
+git init   
+```   
+
 
 open the editor:   
 ```bash

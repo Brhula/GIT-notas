@@ -3,6 +3,8 @@ Notas personales sobre la utilizacion de Git y GITHUB
 
 Mejor utilizar GITBash 
 
+"Index" es el antiguo nombre de la actual "staging area".
+
 Inicializar al instalar GIT en la computadora:   
 ```Bash
 git config --global user.name "User name"   
@@ -28,13 +30,17 @@ open the editor:
 ```bash
 code   
 ```   
-Incorporar ficheros al "staging area" (area intermedia anters de ir al repositorio)
+Incorporar ficheros al "staging area" (area intermedia antes de ir al repositorio)
 ```bash
 git add file1.txt file2.txt # incorporar dos ficheros
 git add *.txt               # incorporar todos los ficheros con esta extension
 git add .                   # incorpora todo el directorio
 ```
 
+Mostrar lo que hay en el "staging area":
+```bash
+git ls-files   
+```   
 
 
 Mustra el estado de todos los "commits" en una sola linea:   

@@ -26,5 +26,7 @@ open the editor:
 ```bash
 code   
 ```   
-
-
+Mustra el estado de todos los "commits" en una sola linea:   
+```bash
+git log --oneline
+```   

@@ -24,12 +24,19 @@ Para iniciar un nuevo repositorio, nos ponemos en el directorio que corresponda 
 ```bash
 git init   
 ```   
-
-
 open the editor:   
 ```bash
 code   
 ```   
+Incorporar ficheros al "staging area" (area intermedia anters de ir al repositorio)
+```bash
+git add file1.txt file2.txt # incorporar dos ficheros
+git add *.txt               # incorporar todos los ficheros con esta extension
+git add .                   # incorpora todo el directorio
+```
+
+
+
 Mustra el estado de todos los "commits" en una sola linea:   
 ```bash
 git log --oneline

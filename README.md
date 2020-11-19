@@ -37,6 +37,11 @@ git restore fichero.ext     # copia "fichero.ext" desde "stagin" al directorio d
 git restore *.ext           # tambien funciona con wild cards 
 git restore .               # dehace todos los cambios (excepto los ficheros no trakeados)
 ```   
+Restaurar ficheros desde el repositorio:
+```bash
+$ git restore --source 7173808e index.html    # Restaura desde un commit concreto
+$ git restore --source master~2 index.html    # restaura desde dos commits antes de el HEAD
+```
 Eliminar todos los ficheros en el "working directory" que no estan bajo GIT (trackeados)
 !!CUIDADO!! NO tiene undo!
 ```bash

@@ -46,8 +46,9 @@ git commit -am "mensaje"            # Hace un commit sin pasar por el "staging a
 
 Muestra el estado de los "commits":   
 ```bash
-git log
+git log               #  Toda la info
 git log --oneline     #  en una sola linea por commit
+git log --reverse     #  Primero lo mas antiguo y al final lo mas nuevo
 ```   
 Mannipulacion de ficheros (para que GIT se entere)
 ```bash

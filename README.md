@@ -6,11 +6,12 @@ Notas personales sobre la utilizacion de Git y GITHUB
 **LOCAL REPOSITORY:** Base de datos donde se almacenan todas las versiones (o "flases").   
 **REMOTE REPOSITORY:** Base de datos en la nube (como GITHUB).   
 
+Mejor utilizar GITBash   
 
+El fichero **.gitignore** se utiliza para poner todos los ficheros y directorios que queremos que NO sean parte del repositorio.   
 
-Mejor utilizar GITBash 
+"Index" es el antiguo nombre de la actual "staging area". En algunos comandos se utiliza --cached para indicar el "staging area".   
 
-"Index" es el antiguo nombre de la actual "staging area". En algunos comandos se utiliza --cached para indicar el "staging area".
 ***COMANDOS***   
 Inicializar al instalar GIT en la computadora:   
 ```Bash

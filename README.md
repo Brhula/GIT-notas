@@ -46,9 +46,21 @@ Mostrar lo que hay en el "staging area":
 ```bash
 git ls-files   
 ```   
-
+Hacer "Commit" para crear un punto de control
+```bash
+git commit -m "mensaje explicativo" # Hace commit directamente
+git commit                          # abre el editor para escribir un mensaje largo y uno corto
+git commit -am "mensaje"            # Hace un commit sin pasar por el "staging area" (!)
+```   
 
 Mustra el estado de todos los "commits" en una sola linea:   
 ```bash
 git log --oneline
+```   
+Mannipulacion de ficheros (para que GIT se entere)
+```bash
+git rm fichero.ext          # borra el "fichero.ext" del directorio y el staging area
+git rm --cached fichero.ext # borra el fichero unicamente del "staging area"
+
+git mv A.ext B.py           # Renombra el fichero
 ```   

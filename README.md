@@ -3,7 +3,7 @@ Notas personales sobre la utilizacion de Git y GITHUB
 
 Mejor utilizar GITBash 
 
-"Index" es el antiguo nombre de la actual "staging area".
+"Index" es el antiguo nombre de la actual "staging area". En algunos comandos se utiliza --cached para indicar el "staging area".
 
 Inicializar al instalar GIT en la computadora:   
 ```Bash
@@ -36,7 +36,12 @@ git add file1.txt file2.txt # incorporar dos ficheros
 git add *.txt               # incorporar todos los ficheros con esta extension
 git add .                   # incorpora todo el directorio
 ```
-
+comprobar el estado actual (directorio de trabajoi y staging area)
+```bash
+git status                  # listado largo con detalles
+git status -s               # listado "short". imprime dos columnas por fichero 
+                            # (izquierda: staging area, derecha directorio actual)
+```   
 Mostrar lo que hay en el "staging area":
 ```bash
 git ls-files   

@@ -27,6 +27,11 @@ git add file1.txt file2.txt # incorporar dos ficheros
 git add *.txt               # incorporar todos los ficheros con esta extension
 git add .                   # incorpora todo el directorio
 ```
+Eliminar ficheros del "staging area". Lo que hace es buscar en el repositorio local y copiar la ultima version. Si el fichero no existe en el repositorio, lo marca con ?? indicando que no esta "trackeado" por GIT.
+```bash
+git restore --staged fixero.ext     # Copia el fixero.ext del repositorio al stage area.
+```   
+
 comprobar el estado actual (directorio de trabajoi y staging area)
 ```bash
 git status                  # listado largo con detalles

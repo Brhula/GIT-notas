@@ -7,10 +7,11 @@ Notas personales sobre la utilizacion de Git y GITHUB
 **REMOTE REPOSITORY:** Base de datos en la nube (como GITHUB).   
 
 
+
 Mejor utilizar GITBash 
 
 "Index" es el antiguo nombre de la actual "staging area". En algunos comandos se utiliza --cached para indicar el "staging area".
-
+***COMANDOS***   
 Inicializar al instalar GIT en la computadora:   
 ```Bash
 git config --global user.name "User name"   

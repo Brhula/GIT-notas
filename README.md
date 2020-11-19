@@ -44,9 +44,10 @@ git commit                          # abre el editor para escribir un mensaje la
 git commit -am "mensaje"            # Hace un commit sin pasar por el "staging area" (!)
 ```   
 
-Mustra el estado de todos los "commits" en una sola linea:   
+Muestra el estado de los "commits":   
 ```bash
-git log --oneline
+git log
+git log --oneline     #  en una sola linea por commit
 ```   
 Mannipulacion de ficheros (para que GIT se entere)
 ```bash

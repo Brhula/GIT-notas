@@ -31,7 +31,17 @@ Eliminar ficheros del "staging area". Lo que hace es buscar en el repositorio lo
 ```bash
 git restore --staged fixero.ext     # Copia el fixero.ext del repositorio al stage area.
 ```   
-
+Restaurar ficheros del "working directory" desde el "staging area" (para dehacer cambios locales que no queremos):
+```bash
+git restore fichero.ext     # copia "fichero.ext" desde "stagin" al directorio de trabajo
+git restore *.ext           # tambien funciona con wild cards 
+git restore .               # dehace todos los cambios (excepto los ficheros no trakeados)
+```   
+Eliminar todos los ficheros en el "working directory" que no estan bajo GIT (trackeados)
+!!CUIDADO!! NO tiene undo!
+```bash
+git clean -fd               # -fd es "force" y "directories". Borra todo incluido carpetas. 
+```   
 comprobar el estado actual (directorio de trabajoi y staging area)
 ```bash
 git status                  # listado largo con detalles

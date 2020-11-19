@@ -1,6 +1,12 @@
 # GIT-notes
 Notas personales sobre la utilizacion de Git y GITHUB
 
+**WORKSPACE:** directorio donde se esta trabajando en la maquina local
+**STAGING AREA:** Tambien conocido como INDEX. Lugar intermedio donde se almacenan los cambios que hacemos. Esta en local tambien.
+**LOCAL REPOSITORY:** Base de datos donde se almacenan todas las versiones (o "flases").
+**REMOTE REPOSITORY:** Base de datos en la nube (como GITHUB).
+
+
 Mejor utilizar GITBash 
 
 "Index" es el antiguo nombre de la actual "staging area". En algunos comandos se utiliza --cached para indicar el "staging area".

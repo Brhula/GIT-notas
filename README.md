@@ -8,7 +8,7 @@ Notas personales sobre la utilizacion de Git y GITHUB
 
 Mejor utilizar GITBash   
 
-El fichero **.gitignore** se utiliza para poner todos los ficheros y directorios que queremos que NO sean parte del repositorio.   
+El fichero **.gitignore** se utiliza para poner todos los ficheros y directorios que queremos que NO sean parte del repositorio. Mirar aqui para ejemplos adaptados a diferentes lenguajes https://github.com/github/gitignore   
 
 "Index" es el antiguo nombre de la actual "staging area". En algunos comandos se utiliza --cached para indicar el "staging area".   
 

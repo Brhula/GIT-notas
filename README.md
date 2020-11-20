@@ -3,8 +3,13 @@ Notas personales sobre la utilizacion de Git y GITHUB
 
 **WORKSPACE:** directorio donde se esta trabajando en la maquina local   
 **STAGING AREA:** Tambien conocido como INDEX. Lugar intermedio donde se almacenan los cambios que hacemos. Esta en local tambien.   
-**LOCAL REPOSITORY:** Base de datos donde se almacenan todas las versiones (o "flases").   
+**LOCAL REPOSITORY:** Base de datos donde se almacenan todas las versiones (o "flases") al hace "commit".   
 **REMOTE REPOSITORY:** Base de datos en la nube (como GITHUB).   
+
+**COMANDOS BASICOS**   
+add     : pasamos del "working directory" al "staging area"   
+commit  : pasamos del "stagin area" al "local repository"   
+restore : pasa del "local repository" o el "staging area" al "woking directory"   
 
 Mejor utilizar GITBash   
 

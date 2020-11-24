@@ -9,6 +9,10 @@ Notas personales sobre la utilizacion de Git y GITHUB
 ![Alt text](cheatsheet/git-transport.png?raw=true "GIT Transport")   
    
    
+**LINKS interesantes**   
+
+[Fundamentos de GIT](https://bluuweb.github.io/tutorial-github/guia/fundamentos.html)   
+   
 **COMANDOS BASICOS**   
 add     : pasamos del "working directory" al "staging area"   
 commit  : pasamos del "stagin area" al "local repository"   

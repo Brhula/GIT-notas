@@ -7,7 +7,8 @@ Notas personales sobre la utilizacion de Git y GITHUB
 **REMOTE REPOSITORY:** Base de datos en la nube (como GITHUB).   
 
 ![Alt text](cheatsheet/git-transport.png?raw=true "GIT Transport")   
-
+   
+   
 **COMANDOS BASICOS**   
 add     : pasamos del "working directory" al "staging area"   
 commit  : pasamos del "stagin area" al "local repository"   

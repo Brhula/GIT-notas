@@ -6,7 +6,7 @@ Notas personales sobre la utilizacion de Git y GITHUB
 **LOCAL REPOSITORY:** Base de datos donde se almacenan todas las versiones (o "flases") al hace "commit".   
 **REMOTE REPOSITORY:** Base de datos en la nube (como GITHUB).   
 
-![Alt text](cheatsheet/git-transport.gif?raw=true "GIT Transport")   
+![Alt text](cheatsheet/git-transport.png?raw=true "GIT Transport")   
 
 **COMANDOS BASICOS**   
 add     : pasamos del "working directory" al "staging area"   

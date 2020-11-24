@@ -141,6 +141,12 @@ Etiquetas para .
 
 
 ```bash
+# Creamos un TAG y lo enviamos al repositorio remoto
 git tag version1.0 -m "Esta es la version 1.0"     # Creamos el TAG "version1.0" con una descripcion
 git push --tags      # subimos los tags al repositorio remoto
+
+# Listar los tags existentes
+git tag
+
+
 ```   

@@ -117,8 +117,8 @@ git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
 Conecta un repositorio local existente al repositorio remoto (GitHub) :   
 ```bash
 git remote add origin https://github.com/[username]/[repository-name].git  # Add a remote repository
-git push -u origin [branch name] 	                                   # Push changes to remote repository (and remember the branch)
-                                                                           # El [branch name] suele ser "master"
+git push -u origin master                                                  # Push changes to remote repository (and remember the branch)
+                                                                           # El "master" es el [branch name] del repositorio local
                                                                            # puede ser que pida usuario y contrasenya de GitHub
 ```   
 Despues de estos dos comandos, GIT esta conectado a la URL que le hemos indicado.

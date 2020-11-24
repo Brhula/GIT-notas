@@ -137,7 +137,7 @@ git fetch
 ```   
     
 ***TAGS***   
-Etiquetas para .   
+Etiquetas para marcar un "commit" particular. Tipicamente se utiliza para poner un numero de version.   
 
 
 ```bash

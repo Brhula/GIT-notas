@@ -135,3 +135,12 @@ Para comparar el repositorio local y el remoto (pedira de hacer pull o push si s
 ```bash
 git fetch 
 ```   
+    
+***TAGS***   
+Etiquetas para .   
+
+
+```bash
+git tag version1.0 -m "Esta es la version 1.0"     # Creamos el TAG "version1.0" con una descripcion
+git push --tags      # subimos los tags al repositorio remoto
+```   

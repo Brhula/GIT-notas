@@ -127,3 +127,11 @@ Una vez conectado el repositorio remoto con el local, cualquier cambio que se ha
 ```bash
 git push       # envia los cambios locales al repositorio remoto
 ```   
+Si anadimos ficheros en el repositorio remoto (con el editor de GitHub, por ejemplo), podemos sincronizar (copiar) al repositorio local con:   
+```bash
+git pull 
+```   
+Para comparar el repositorio local y el remoto (pedira de hacer pull o push si son diferentes):
+```bash
+git fetch 
+```   
